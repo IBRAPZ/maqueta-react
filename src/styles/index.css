@@ -29,3 +29,28 @@ body {
   padding: 20px;
   background-color: #fdf4e3; /* o el color que estés usando */
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* separa arriba y abajo */
+  height: 100vh; /* ocupa toda la altura de la ventana */
+}
+
+.componente-dos {
+  margin-top: auto; /* empuja hacia abajo */
+}
+
+.componente-tres {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+}

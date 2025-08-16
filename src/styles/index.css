@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background-color: #e2e0dd; /* fondo naranja oscuro */
+  font-family: sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.tarjetas-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

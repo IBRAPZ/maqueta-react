@@ -1,0 +1,9 @@
+.componente-dos {
+  background-color: #ffb74d; /* naranja intenso */
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}

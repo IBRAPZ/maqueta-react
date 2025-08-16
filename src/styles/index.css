@@ -18,3 +18,14 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.tarjetas-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px; /* separa visualmente de ComponenteDos */
+}
+
+.app-container {
+  padding: 20px;
+  background-color: #fdf4e3; /* o el color que estés usando */
+}
